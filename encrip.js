@@ -1,3 +1,7 @@
+function minusculas(textarea){
+    
+    textarea.value=textarea.value.toLowerCase();
+} 
 function encriptar(){
 
     let mensagee=document.getElementById("encr").value;
